@@ -1,3 +1,8 @@
 export default function dragonizer(num){
-  return "I";
+  if(num === 0){
+    return "";
+  } else {
+    console.log(num);
+    return dragonizer(num - 1) + "I";
+  }
 }

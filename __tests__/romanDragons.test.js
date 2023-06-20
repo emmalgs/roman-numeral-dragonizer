@@ -24,4 +24,8 @@ describe('dragonizer', () => {
   test('should return "V" if 5 is put in', () => {
     expect(dragonizer(5)).toEqual("V");
   })
+
+  test('should return "VI" if 6 is put in', () => {
+    expect(dragonizer(6)).toEqual("VI");
+  });
 });

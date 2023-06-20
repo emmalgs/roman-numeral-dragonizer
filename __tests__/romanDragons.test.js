@@ -11,5 +11,9 @@ describe('dragonizer', () => {
 
   test('should return "" if 0 is inputted', ()=> {
     expect(dragonizer(0)).toEqual("");
-  });
+  })
+
+  test('should return "III" if 3 is put in', () => {
+    expect(dragonizer(3)).toEqual("III");
+  })
 });

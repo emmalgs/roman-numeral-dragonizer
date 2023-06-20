@@ -10,21 +10,19 @@ export default function dragonizer(num) {
       return dragonizer(num - 1) + "I";
     }
   } else if (num >= 5 && num < 10) {
-    if((num % 5 < 4) && (num % 5 >= 1)) {
-      console.log("SCARP");
-      return dragonizer(num -1) + "I";
+    if ((num % 5 < 4) && (num % 5 >= 1)) {
+      return dragonizer(num - 1) + "I";
     } else if ((num % 5) == 0) {
-      console.log("FARTT");
       return dragonizer(num % 5) + "V";
     } else {
       return dragonizer(num - 8) + "X";
     }
   } else if (num >= 10) {
+    if ((num % 5 < 4) && (num % 5 >= 1)) {
+      return dragonizer(num - 1) + "I";
+    } else if (num % 5 == 4) {
+      return dragonizer(num - 3) + "V";
+    }
     return dragonizer(num % 5) + "X";
   }
 }
-
-
-
-
-

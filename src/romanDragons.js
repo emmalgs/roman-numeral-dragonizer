@@ -1,8 +1,9 @@
 export default function dragonizer(num){
   if(num === 0){
     return "";
-  } else {
-    console.log(num);
+  } else if (num == 4) {
+    return dragonizer(num - 3) + "V";
+  } else if (num <= 3){
     return dragonizer(num - 1) + "I";
   }
 }

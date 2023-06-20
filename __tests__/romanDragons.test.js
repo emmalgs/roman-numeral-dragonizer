@@ -16,4 +16,8 @@ describe('dragonizer', () => {
   test('should return "III" if 3 is put in', () => {
     expect(dragonizer(3)).toEqual("III");
   })
+
+  test('should return "IV" if 4 is put in the hole', () => {
+    expect(dragonizer(4)).toEqual("IV");
+  })
 });

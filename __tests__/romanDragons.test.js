@@ -76,4 +76,10 @@ describe('dragonizer', () => {
   test('should return "XIX" if 19 is put in', () => {
     expect(dragonizer(19)).toEqual("XIX");
   });
+  test('should return "XX" if 20 is put in', () => {
+    expect(dragonizer(20)).toEqual("XX");
+  });
+  test('should return "XXIV" if 24 is put in', () => {
+    expect(dragonizer(24)).toEqual("XXIV");
+  });
 });

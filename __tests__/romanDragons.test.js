@@ -60,4 +60,8 @@ describe('dragonizer', () => {
   test('should return "XIV" if 14 is put in', () => {
     expect(dragonizer(14)).toEqual("XIV");
   });
+
+  test('should return "XV" if 15 is put in', () => {
+    expect(dragonizer(15)).toEqual("XV");
+  });
 });

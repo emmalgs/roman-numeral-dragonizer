@@ -97,4 +97,7 @@ describe('dragonizer', () => {
   test('should return "XXXIX" if 39 is put in', () => {
     expect(dragonizer(39)).toEqual("XXXIX");
   });
+  test('should return "XLIV" if 44 is put in', () => {
+    expect(dragonizer(44)).toEqual("XLIV");
+  });
 });

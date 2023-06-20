@@ -2,7 +2,6 @@ export default function dragonizer(num) {
   if (num === 0) {
     return "";
   }
-
   if (num < 5) {
     if (num == 4) {
       return dragonizer(num - 3) + "V";

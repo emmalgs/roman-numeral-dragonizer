@@ -1,29 +1,30 @@
-# (Application Name)
+# Roman Numeral Dragonizer
 
-#### (Brief Description of Application)
+#### Code to practice recursion
 
-#### By (Your Name Here)
+#### By Emma Gerigscott and Sarah Reimann
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* _Javascript_
+* _Recursion_
+* _Functional Programming_
+* _Test Driven Developement_
 
 ## Description
+This project uses TDD to practice solving the Roman Numeral problem through recursion. This project has no UI.
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* Clone this repository
+* In your terminal navigate to the repository's root folder
+* Run ```npm install```
+* To view test results, in your terminal run ```npm test```
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _Does not work past 39!_
 
 ## License
+
+Copyright 2023 Sarah Reimann and Emma Gerigscott
